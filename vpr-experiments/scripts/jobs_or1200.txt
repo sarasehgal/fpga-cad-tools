@@ -1,0 +1,145 @@
+/home/claude/vtr9/build/vpr/vpr runs/A2/or1200/s1 or1200 --pack --place --place_algorithm bounding_box --seed 1
+/home/claude/vtr9/build/vpr/vpr runs/A4/or1200/s1 or1200 --pack --place --place_algorithm bounding_box --seed 1 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-2/s1 or1200 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-3/s1 or1200 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-4/s1 or1200 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-5/s1 or1200 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-6/s1 or1200 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/or1200/s2 or1200 --pack --place --place_algorithm bounding_box --seed 2
+/home/claude/vtr9/build/vpr/vpr runs/A4/or1200/s2 or1200 --pack --place --place_algorithm bounding_box --seed 2 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-2/s2 or1200 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-3/s2 or1200 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-4/s2 or1200 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-5/s2 or1200 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-6/s2 or1200 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/or1200/s3 or1200 --pack --place --place_algorithm bounding_box --seed 3
+/home/claude/vtr9/build/vpr/vpr runs/A4/or1200/s3 or1200 --pack --place --place_algorithm bounding_box --seed 3 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-2/s3 or1200 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-3/s3 or1200 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-4/s3 or1200 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-5/s3 or1200 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-6/s3 or1200 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/or1200/s4 or1200 --pack --place --place_algorithm bounding_box --seed 4
+/home/claude/vtr9/build/vpr/vpr runs/A4/or1200/s4 or1200 --pack --place --place_algorithm bounding_box --seed 4 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-2/s4 or1200 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-3/s4 or1200 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-4/s4 or1200 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-5/s4 or1200 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-6/s4 or1200 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/or1200/s5 or1200 --pack --place --place_algorithm bounding_box --seed 5
+/home/claude/vtr9/build/vpr/vpr runs/A4/or1200/s5 or1200 --pack --place --place_algorithm bounding_box --seed 5 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-2/s5 or1200 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-3/s5 or1200 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-4/s5 or1200 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-5/s5 or1200 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/or1200/T1e-6/s5 or1200 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/B1/or1200/s1 or1200 --route_chan_width 72 --seed 1
+/home/claude/vtr9/build/vpr/vpr runs/B3a/or1200/s1 or1200 --route_chan_width 72 --seed 1 --place_algorithm bounding_box
+/home/claude/vtr9/build/vpr/vpr runs/B3b/or1200/s1 or1200 --route_chan_width 72 --seed 1 --place_algorithm bounding_box --max_criticality 0
+/home/claude/vtr9/build/vpr/vpr runs/B1/or1200/s2 or1200 --route_chan_width 72 --seed 2
+/home/claude/vtr9/build/vpr/vpr runs/B3a/or1200/s2 or1200 --route_chan_width 72 --seed 2 --place_algorithm bounding_box
+/home/claude/vtr9/build/vpr/vpr runs/B3b/or1200/s2 or1200 --route_chan_width 72 --seed 2 --place_algorithm bounding_box --max_criticality 0
+/home/claude/vtr9/build/vpr/vpr runs/B1/or1200/s3 or1200 --route_chan_width 72 --seed 3
+/home/claude/vtr9/build/vpr/vpr runs/B3a/or1200/s3 or1200 --route_chan_width 72 --seed 3 --place_algorithm bounding_box
+/home/claude/vtr9/build/vpr/vpr runs/B3b/or1200/s3 or1200 --route_chan_width 72 --seed 3 --place_algorithm bounding_box --max_criticality 0
+/home/claude/vtr9/build/vpr/vpr runs/B1/or1200/s4 or1200 --route_chan_width 72 --seed 4
+/home/claude/vtr9/build/vpr/vpr runs/B3a/or1200/s4 or1200 --route_chan_width 72 --seed 4 --place_algorithm bounding_box
+/home/claude/vtr9/build/vpr/vpr runs/B3b/or1200/s4 or1200 --route_chan_width 72 --seed 4 --place_algorithm bounding_box --max_criticality 0
+/home/claude/vtr9/build/vpr/vpr runs/B1/or1200/s5 or1200 --route_chan_width 72 --seed 5
+/home/claude/vtr9/build/vpr/vpr runs/B3a/or1200/s5 or1200 --route_chan_width 72 --seed 5 --place_algorithm bounding_box
+/home/claude/vtr9/build/vpr/vpr runs/B3b/or1200/s5 or1200 --route_chan_width 72 --seed 5 --place_algorithm bounding_box --max_criticality 0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf0.1/s1 or1200 --route_chan_width 72 --seed 1 --initial_pres_fac 0.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf0.1/s2 or1200 --route_chan_width 72 --seed 2 --initial_pres_fac 0.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf0.1/s3 or1200 --route_chan_width 72 --seed 3 --initial_pres_fac 0.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf0.1/s4 or1200 --route_chan_width 72 --seed 4 --initial_pres_fac 0.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf0.1/s5 or1200 --route_chan_width 72 --seed 5 --initial_pres_fac 0.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf2/s1 or1200 --route_chan_width 72 --seed 1 --initial_pres_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf2/s2 or1200 --route_chan_width 72 --seed 2 --initial_pres_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf2/s3 or1200 --route_chan_width 72 --seed 3 --initial_pres_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf2/s4 or1200 --route_chan_width 72 --seed 4 --initial_pres_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf2/s5 or1200 --route_chan_width 72 --seed 5 --initial_pres_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf10/s1 or1200 --route_chan_width 72 --seed 1 --initial_pres_fac 10
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf10/s2 or1200 --route_chan_width 72 --seed 2 --initial_pres_fac 10
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf10/s3 or1200 --route_chan_width 72 --seed 3 --initial_pres_fac 10
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf10/s4 or1200 --route_chan_width 72 --seed 4 --initial_pres_fac 10
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/ipf10/s5 or1200 --route_chan_width 72 --seed 5 --initial_pres_fac 10
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm1.1/s1 or1200 --route_chan_width 72 --seed 1 --pres_fac_mult 1.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm1.1/s2 or1200 --route_chan_width 72 --seed 2 --pres_fac_mult 1.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm1.1/s3 or1200 --route_chan_width 72 --seed 3 --pres_fac_mult 1.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm1.1/s4 or1200 --route_chan_width 72 --seed 4 --pres_fac_mult 1.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm1.1/s5 or1200 --route_chan_width 72 --seed 5 --pres_fac_mult 1.1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm2/s1 or1200 --route_chan_width 72 --seed 1 --pres_fac_mult 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm2/s2 or1200 --route_chan_width 72 --seed 2 --pres_fac_mult 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm2/s3 or1200 --route_chan_width 72 --seed 3 --pres_fac_mult 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm2/s4 or1200 --route_chan_width 72 --seed 4 --pres_fac_mult 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm2/s5 or1200 --route_chan_width 72 --seed 5 --pres_fac_mult 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm3/s1 or1200 --route_chan_width 72 --seed 1 --pres_fac_mult 3.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm3/s2 or1200 --route_chan_width 72 --seed 2 --pres_fac_mult 3.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm3/s3 or1200 --route_chan_width 72 --seed 3 --pres_fac_mult 3.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm3/s4 or1200 --route_chan_width 72 --seed 4 --pres_fac_mult 3.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/pfm3/s5 or1200 --route_chan_width 72 --seed 5 --pres_fac_mult 3.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc0.2/s1 or1200 --route_chan_width 72 --seed 1 --acc_fac 0.2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc0.2/s2 or1200 --route_chan_width 72 --seed 2 --acc_fac 0.2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc0.2/s3 or1200 --route_chan_width 72 --seed 3 --acc_fac 0.2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc0.2/s4 or1200 --route_chan_width 72 --seed 4 --acc_fac 0.2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc0.2/s5 or1200 --route_chan_width 72 --seed 5 --acc_fac 0.2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc2/s1 or1200 --route_chan_width 72 --seed 1 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc2/s2 or1200 --route_chan_width 72 --seed 2 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc2/s3 or1200 --route_chan_width 72 --seed 3 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc2/s4 or1200 --route_chan_width 72 --seed 4 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc2/s5 or1200 --route_chan_width 72 --seed 5 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc5/s1 or1200 --route_chan_width 72 --seed 1 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc5/s2 or1200 --route_chan_width 72 --seed 2 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc5/s3 or1200 --route_chan_width 72 --seed 3 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc5/s4 or1200 --route_chan_width 72 --seed 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/acc5/s5 or1200 --route_chan_width 72 --seed 5 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/fipf0.5/s1 or1200 --route_chan_width 72 --seed 1 --first_iter_pres_fac 0.5
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/fipf0.5/s2 or1200 --route_chan_width 72 --seed 2 --first_iter_pres_fac 0.5
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/fipf0.5/s3 or1200 --route_chan_width 72 --seed 3 --first_iter_pres_fac 0.5
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/fipf0.5/s4 or1200 --route_chan_width 72 --seed 4 --first_iter_pres_fac 0.5
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/fipf0.5/s5 or1200 --route_chan_width 72 --seed 5 --first_iter_pres_fac 0.5
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar1.0/s1 or1200 --route_chan_width 72 --seed 1 --astar_fac 1.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar1.0/s2 or1200 --route_chan_width 72 --seed 2 --astar_fac 1.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar1.0/s3 or1200 --route_chan_width 72 --seed 3 --astar_fac 1.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar1.0/s4 or1200 --route_chan_width 72 --seed 4 --astar_fac 1.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar1.0/s5 or1200 --route_chan_width 72 --seed 5 --astar_fac 1.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar2/s1 or1200 --route_chan_width 72 --seed 1 --astar_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar2/s2 or1200 --route_chan_width 72 --seed 2 --astar_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar2/s3 or1200 --route_chan_width 72 --seed 3 --astar_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar2/s4 or1200 --route_chan_width 72 --seed 4 --astar_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/astar2/s5 or1200 --route_chan_width 72 --seed 5 --astar_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.9/s1 or1200 --route_chan_width 72 --seed 1 --max_criticality 0.9
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.9/s2 or1200 --route_chan_width 72 --seed 2 --max_criticality 0.9
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.9/s3 or1200 --route_chan_width 72 --seed 3 --max_criticality 0.9
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.9/s4 or1200 --route_chan_width 72 --seed 4 --max_criticality 0.9
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.9/s5 or1200 --route_chan_width 72 --seed 5 --max_criticality 0.9
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.999/s1 or1200 --route_chan_width 72 --seed 1 --max_criticality 0.999
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.999/s2 or1200 --route_chan_width 72 --seed 2 --max_criticality 0.999
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.999/s3 or1200 --route_chan_width 72 --seed 3 --max_criticality 0.999
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.999/s4 or1200 --route_chan_width 72 --seed 4 --max_criticality 0.999
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/maxcrit0.999/s5 or1200 --route_chan_width 72 --seed 5 --max_criticality 0.999
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp2/s1 or1200 --route_chan_width 72 --seed 1 --criticality_exp 2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp2/s2 or1200 --route_chan_width 72 --seed 2 --criticality_exp 2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp2/s3 or1200 --route_chan_width 72 --seed 3 --criticality_exp 2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp2/s4 or1200 --route_chan_width 72 --seed 4 --criticality_exp 2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp2/s5 or1200 --route_chan_width 72 --seed 5 --criticality_exp 2
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp4/s1 or1200 --route_chan_width 72 --seed 1 --criticality_exp 4
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp4/s2 or1200 --route_chan_width 72 --seed 2 --criticality_exp 4
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp4/s3 or1200 --route_chan_width 72 --seed 3 --criticality_exp 4
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp4/s4 or1200 --route_chan_width 72 --seed 4 --criticality_exp 4
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp4/s5 or1200 --route_chan_width 72 --seed 5 --criticality_exp 4
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp8/s1 or1200 --route_chan_width 72 --seed 1 --criticality_exp 8
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp8/s2 or1200 --route_chan_width 72 --seed 2 --criticality_exp 8
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp8/s3 or1200 --route_chan_width 72 --seed 3 --criticality_exp 8
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp8/s4 or1200 --route_chan_width 72 --seed 4 --criticality_exp 8
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/cexp8/s5 or1200 --route_chan_width 72 --seed 5 --criticality_exp 8
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf1/s1 or1200 --route_chan_width 72 --seed 1 --bb_factor 1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf1/s2 or1200 --route_chan_width 72 --seed 2 --bb_factor 1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf1/s3 or1200 --route_chan_width 72 --seed 3 --bb_factor 1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf1/s4 or1200 --route_chan_width 72 --seed 4 --bb_factor 1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf1/s5 or1200 --route_chan_width 72 --seed 5 --bb_factor 1
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf10/s1 or1200 --route_chan_width 72 --seed 1 --bb_factor 10
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf10/s2 or1200 --route_chan_width 72 --seed 2 --bb_factor 10
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf10/s3 or1200 --route_chan_width 72 --seed 3 --bb_factor 10
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf10/s4 or1200 --route_chan_width 72 --seed 4 --bb_factor 10
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/bbf10/s5 or1200 --route_chan_width 72 --seed 5 --bb_factor 10

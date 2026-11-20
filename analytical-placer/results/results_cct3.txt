@@ -1,0 +1,37 @@
+cct3.txt: 701 cells (614 movable: 544 w1, 34 w2, 36 w3), 87 fixed, 800 nets
+
+[part 1] clique model, file io spots, no spreading: HPWL = 15765.74
+
+[part 2] 20 random io placements (seed 1387):
+  15642.8 15854.7 15692.6 15703.1 16050.4 15848.4 16124.4 15842.2 16305.0 15523.6 15926.1 16465.4 16131.5 15638.3 15377.0 15573.2 15842.7 16231.8 15863.9 16243.8 
+  mean HPWL = 15894.05, std dev = 289.24 (min 15377.00, max 16465.35)
+
+[part 3i] flow based spreading, starting from the part 1 solve
+  psi     iters  lastpsi  totaldisp   maxdisp      HPWL  overflow
+  lin        35       17    7018.00     17.00  31716.39         0
+  half       66       17    7000.00     17.00  31711.50         0
+  lin2       20       18    6972.00     18.00  31515.22         0
+  from5      24       17    7013.00     17.00  31756.42         0
+  dbl        17       32    6929.00     19.00  31357.88         0
+  big         7       -1    6858.00     21.00  31298.48         0
+  best (smallest total displacement): big
+
+[part 3ii] anchors at the spread spots (psi schedule big)
+  solved HPWL 15765.74 -> spread HPWL 31298.48
+  anchor weight 0.1    -> HPWL 15855.39  (avg dist from anchor 11.071)
+  anchor weight 30     -> HPWL 26374.31  (avg dist from anchor 3.129)
+  anchor weight sweep:
+    w=0.01   HPWL  15774.61  total dist from anchors  6851.94
+    w=0.03   HPWL  15792.38  total dist from anchors  6839.85
+    w=0.1    HPWL  15855.39  total dist from anchors  6797.85
+    w=0.3    HPWL  16039.58  total dist from anchors  6680.56
+    w=1      HPWL  16707.23  total dist from anchors  6300.08
+    w=3      HPWL  18442.59  total dist from anchors  5423.23
+    w=10     HPWL  22271.68  total dist from anchors  3667.62
+    w=30     HPWL  26374.31  total dist from anchors  1921.05
+    w=100    HPWL  29389.42  total dist from anchors   724.12
+saved cct3_p1_solved.png
+saved cct3_p2_randomio1.png
+saved cct3_p3i_spread.png
+saved cct3_p3ii_weak.png
+saved cct3_p3ii_strong.png

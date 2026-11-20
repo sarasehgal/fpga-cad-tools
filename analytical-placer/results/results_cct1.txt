@@ -1,0 +1,39 @@
+cct1.txt: 61 cells (54 movable: 48 w1, 3 w2, 3 w3), 7 fixed, 100 nets
+
+[part 1] clique model, file io spots, no spreading: HPWL = 1229.35
+
+[part 2] 20 random io placements (seed 1387):
+  1252.1 1323.8 1468.8 1245.4 1390.9 1342.4 1158.5 1423.3 1460.3 1472.6 1298.8 1509.2 1377.1 1195.8 1473.3 1374.7 1551.4 1369.7 1584.4 1140.1 
+  mean HPWL = 1370.63, std dev = 126.91 (min 1140.14, max 1584.45)
+
+[part 3i] flow based spreading, starting from the part 1 solve
+  psi     iters  lastpsi  totaldisp   maxdisp      HPWL  overflow
+  lin         5        4     130.00      4.00   1594.68         0
+  half       10        4     130.00      4.00   1594.68         0
+  lin2        3        4     126.00      4.00   1600.68         0
+  from5       2        5     124.00      5.00   1603.15         0
+  dbl         4        4     128.00      4.00   1606.64         0
+  big         2       -1     124.00      5.00   1603.15         0
+  best (smallest total displacement): from5
+
+[part 3ii] anchors at the spread spots (psi schedule from5)
+  solved HPWL 1229.35 -> spread HPWL 1603.15
+  anchor weight 0.1    -> HPWL 1231.08  (avg dist from anchor 2.278)
+  anchor weight 30     -> HPWL 1485.41  (avg dist from anchor 0.673)
+  anchor weight sweep:
+    w=0.01   HPWL   1229.52  total dist from anchors   123.90
+    w=0.03   HPWL   1229.86  total dist from anchors   123.71
+    w=0.1    HPWL   1231.08  total dist from anchors   123.04
+    w=0.3    HPWL   1234.86  total dist from anchors   121.13
+    w=1      HPWL   1250.26  total dist from anchors   114.80
+    w=3      HPWL   1290.77  total dist from anchors    99.72
+    w=10     HPWL   1382.65  total dist from anchors    68.49
+    w=30     HPWL   1485.41  total dist from anchors    36.34
+    w=100    HPWL   1558.47  total dist from anchors    13.79
+2026-10-28 21:08:23.968 placer[25039:7200594] +[IMKClient subclass]: chose IMKClient_Modern
+2026-10-28 21:08:23.968 placer[25039:7200594] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+saved cct1_p1_solved.png
+saved cct1_p2_randomio1.png
+saved cct1_p3i_spread.png
+saved cct1_p3ii_weak.png
+saved cct1_p3ii_strong.png

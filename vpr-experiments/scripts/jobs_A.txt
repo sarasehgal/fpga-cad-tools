@@ -1,0 +1,105 @@
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s1 clma --pack --place --place_algorithm bounding_box --seed 1
+/home/claude/vtr9/build/vpr/vpr runs/A4/clma/s1 clma --pack --place --place_algorithm bounding_box --seed 1 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-2/s1 clma --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-3/s1 clma --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-4/s1 clma --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-5/s1 clma --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-6/s1 clma --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s2 clma --pack --place --place_algorithm bounding_box --seed 2
+/home/claude/vtr9/build/vpr/vpr runs/A4/clma/s2 clma --pack --place --place_algorithm bounding_box --seed 2 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-2/s2 clma --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-3/s2 clma --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-4/s2 clma --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-5/s2 clma --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-6/s2 clma --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s3 clma --pack --place --place_algorithm bounding_box --seed 3
+/home/claude/vtr9/build/vpr/vpr runs/A4/clma/s3 clma --pack --place --place_algorithm bounding_box --seed 3 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-2/s3 clma --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-3/s3 clma --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-4/s3 clma --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-5/s3 clma --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-6/s3 clma --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s4 clma --pack --place --place_algorithm bounding_box --seed 4
+/home/claude/vtr9/build/vpr/vpr runs/A4/clma/s4 clma --pack --place --place_algorithm bounding_box --seed 4 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-2/s4 clma --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-3/s4 clma --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-4/s4 clma --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-5/s4 clma --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-6/s4 clma --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s5 clma --pack --place --place_algorithm bounding_box --seed 5
+/home/claude/vtr9/build/vpr/vpr runs/A4/clma/s5 clma --pack --place --place_algorithm bounding_box --seed 5 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-2/s5 clma --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-3/s5 clma --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-4/s5 clma --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-5/s5 clma --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/clma/T1e-6/s5 clma --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s1 pdc --pack --place --place_algorithm bounding_box --seed 1
+/home/claude/vtr9/build/vpr/vpr runs/A4/pdc/s1 pdc --pack --place --place_algorithm bounding_box --seed 1 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-2/s1 pdc --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-3/s1 pdc --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-4/s1 pdc --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-5/s1 pdc --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-6/s1 pdc --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s2 pdc --pack --place --place_algorithm bounding_box --seed 2
+/home/claude/vtr9/build/vpr/vpr runs/A4/pdc/s2 pdc --pack --place --place_algorithm bounding_box --seed 2 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-2/s2 pdc --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-3/s2 pdc --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-4/s2 pdc --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-5/s2 pdc --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-6/s2 pdc --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s3 pdc --pack --place --place_algorithm bounding_box --seed 3
+/home/claude/vtr9/build/vpr/vpr runs/A4/pdc/s3 pdc --pack --place --place_algorithm bounding_box --seed 3 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-2/s3 pdc --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-3/s3 pdc --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-4/s3 pdc --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-5/s3 pdc --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-6/s3 pdc --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s4 pdc --pack --place --place_algorithm bounding_box --seed 4
+/home/claude/vtr9/build/vpr/vpr runs/A4/pdc/s4 pdc --pack --place --place_algorithm bounding_box --seed 4 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-2/s4 pdc --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-3/s4 pdc --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-4/s4 pdc --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-5/s4 pdc --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-6/s4 pdc --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s5 pdc --pack --place --place_algorithm bounding_box --seed 5
+/home/claude/vtr9/build/vpr/vpr runs/A4/pdc/s5 pdc --pack --place --place_algorithm bounding_box --seed 5 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-2/s5 pdc --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-3/s5 pdc --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-4/s5 pdc --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-5/s5 pdc --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/pdc/T1e-6/s5 pdc --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s1 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 1
+/home/claude/vtr9/build/vpr/vpr runs/A4/riscv_core_lut6/s1 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 1 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-2/s1 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-3/s1 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-4/s1 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-5/s1 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-6/s1 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 1 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s2 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 2
+/home/claude/vtr9/build/vpr/vpr runs/A4/riscv_core_lut6/s2 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 2 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-2/s2 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-3/s2 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-4/s2 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-5/s2 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-6/s2 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 2 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s3 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 3
+/home/claude/vtr9/build/vpr/vpr runs/A4/riscv_core_lut6/s3 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 3 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-2/s3 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-3/s3 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-4/s3 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-5/s3 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-6/s3 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 3 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s4 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 4
+/home/claude/vtr9/build/vpr/vpr runs/A4/riscv_core_lut6/s4 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 4 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-2/s4 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-3/s4 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-4/s4 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-5/s4 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-6/s4 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 4 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s5 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 5
+/home/claude/vtr9/build/vpr/vpr runs/A4/riscv_core_lut6/s5 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 5 --place_rlim_escape 1.0
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-2/s5 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-2 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-3/s5 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-3 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-4/s5 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-4 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-5/s5 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-5 --exit_t 1e-8 --alpha_t 0.9
+/home/claude/vtr9/build/vpr/vpr runs/A3/riscv_core_lut6/T1e-6/s5 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 5 --init_t 1e-6 --exit_t 1e-8 --alpha_t 0.9

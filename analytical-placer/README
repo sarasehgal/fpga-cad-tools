@@ -1,0 +1,52 @@
+ECE1387 A2 - analytical placer + flow based spreading (Sara Sehgal)
+
+build
+-----
+  make
+
+suitesparse/ (umfpack + amd static libs, already built on ECF) is included, so just typing make works.
+to rebuild those libs from scratch: put SuiteSparse-5.10.1.tar.gz in this folder (or solver/) n run
+  bash build_umfpack.sh
+
+(needs gtk3, same as a1. builds ./placer. "make placer_nogfx" builds one w no graphics, doesnt need gtk)
+
+run
+---
+the numbers in the report r from ECF (remote.ecf.utoronto.ca). other machines can give slightly
+different part 2 / part 3 numbers (diff c++ std lib random + float ties), ECF reproduces them exactly.
+the ones in the report were made w  ./placer circuits/cctN.txt -nogfx -sweep
+
+run it from this folder (it loads main.ui from here):
+
+  ./placer circuits/cct2.txt
+
+it does everything for that circuit n prints the numbers in the terminal:
+  part 1   - clique model solve w the io spots from the file, HPWL
+  part 2   - 20 random io placements on the perimeter, mean + std dev of HPWL
+  part 3i  - flow based spreading w each psi schedule (total displacement, max displacement, HPWL),
+             picks the one w the smallest total displacement
+  part 3ii - anchors at the spread spots, re-solve w a weak n a strong anchor weight, HPWL
+
+then the graphics window opens. "Next stage" / "Prev stage" step thru:
+  solved -> random io trial 1 -> each spreading iteration -> spread result -> weak anchors -> strong anchors
+the status bar shows the stage n its HPWL. "Nets on/off" hides the rats nest, "Save PNG" saves the
+current view as stageN.png. cells: blue w=1, green w=2, orange w=3, small dark red = fixed io.
+zoom in to see the block numbers.
+
+options (can combine them):
+  -nogfx          just print the numbers, no window
+  -psi <name>     only run one psi schedule: lin half lin2 from5 dbl big
+  -weak <w>       weak anchor weight (default 0.1)
+  -strong <w>     strong anchor weight (default 30)
+  -seed <s>       seed for the random io placements (default 1387)
+  -sweep          also print HPWL for a range of anchor weights
+  -svg            also write svg plots of the main stages (cctN_p1_solved.svg etc)
+  -png            save the main stages as png thru ezgl (cctN_p1_solved.png etc) n quit
+
+files
+-----
+  placer.cpp        the placer (everything is in this one file)
+  Makefile
+  build_umfpack.sh  builds the umfpack static libs from the tarball
+  main.ui, ezgl/    ezgl graphics lib (same as a1)
+  circuits/         test circuits cct1 - cct3

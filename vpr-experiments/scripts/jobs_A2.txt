@@ -1,0 +1,15 @@
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s1 clma --pack --place --place_algorithm bounding_box --seed 1
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s2 clma --pack --place --place_algorithm bounding_box --seed 2
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s3 clma --pack --place --place_algorithm bounding_box --seed 3
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s4 clma --pack --place --place_algorithm bounding_box --seed 4
+/home/claude/vtr9/build/vpr/vpr runs/A2/clma/s5 clma --pack --place --place_algorithm bounding_box --seed 5
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s1 pdc --pack --place --place_algorithm bounding_box --seed 1
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s2 pdc --pack --place --place_algorithm bounding_box --seed 2
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s3 pdc --pack --place --place_algorithm bounding_box --seed 3
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s4 pdc --pack --place --place_algorithm bounding_box --seed 4
+/home/claude/vtr9/build/vpr/vpr runs/A2/pdc/s5 pdc --pack --place --place_algorithm bounding_box --seed 5
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s1 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 1
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s2 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 2
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s3 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 3
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s4 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 4
+/home/claude/vtr9/build/vpr/vpr runs/A2/riscv_core_lut6/s5 riscv_core_lut6 --pack --place --place_algorithm bounding_box --seed 5

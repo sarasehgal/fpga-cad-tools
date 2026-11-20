@@ -1,0 +1,32 @@
+cct1.txt: 61 cells (54 movable: 48 w1, 3 w2, 3 w3), 7 fixed, 100 nets
+
+[part 1] clique model, file io spots, no spreading: HPWL = 1229.35
+
+[part 2] 20 random io placements (seed 1387):
+  1246.6 1475.6 1371.3 1103.3 1561.9 1256.1 1602.8 1429.7 1314.5 1466.1 1436.2 1398.7 1311.1 1413.8 1337.8 1329.2 1393.0 890.3 1585.8 1403.2 
+  mean HPWL = 1366.35, std dev = 163.64 (min 890.32, max 1602.82)
+
+[part 3i] flow based spreading, starting from the part 1 solve
+  psi     iters  lastpsi  totaldisp   maxdisp      HPWL  overflow
+  lin         5        4     130.00      4.00   1594.68         0
+  half       10        4     130.00      4.00   1594.68         0
+  lin2        3        4     126.00      4.00   1600.68         0
+  from5       2        5     124.00      5.00   1600.69         0
+  dbl         4        4     128.00      4.00   1607.39         0
+  big         2       -1     124.00      5.00   1600.69         0
+  best (smallest total displacement): from5
+
+[part 3ii] anchors at the spread spots (psi schedule from5)
+  solved HPWL 1229.35 -> spread HPWL 1600.69
+  anchor weight 0.1    -> HPWL 1231.08  (avg dist from anchor 2.278)
+  anchor weight 30     -> HPWL 1483.45  (avg dist from anchor 0.674)
+  anchor weight sweep:
+    w=0.01   HPWL   1229.52  total dist from anchors   123.90
+    w=0.03   HPWL   1229.86  total dist from anchors   123.71
+    w=0.1    HPWL   1231.08  total dist from anchors   123.04
+    w=0.3    HPWL   1234.84  total dist from anchors   121.13
+    w=1      HPWL   1250.19  total dist from anchors   114.81
+    w=3      HPWL   1290.50  total dist from anchors    99.74
+    w=10     HPWL   1381.95  total dist from anchors    68.54
+    w=30     HPWL   1483.45  total dist from anchors    36.37
+    w=100    HPWL   1556.02  total dist from anchors    13.81

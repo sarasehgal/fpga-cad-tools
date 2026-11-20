@@ -1,0 +1,40 @@
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_C/s1 or1200 --route_chan_width 72 --seed 1 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_D/s1 or1200 --route_chan_width 72 --seed 1 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_C/s2 or1200 --route_chan_width 72 --seed 2 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_D/s2 or1200 --route_chan_width 72 --seed 2 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_C/s3 or1200 --route_chan_width 72 --seed 3 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_D/s3 or1200 --route_chan_width 72 --seed 3 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_C/s4 or1200 --route_chan_width 72 --seed 4 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_D/s4 or1200 --route_chan_width 72 --seed 4 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_C/s5 or1200 --route_chan_width 72 --seed 5 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/or1200/combo_D/s5 or1200 --route_chan_width 72 --seed 5 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_C/s1 clma --route_chan_width 96 --seed 1 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_D/s1 clma --route_chan_width 96 --seed 1 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_C/s2 clma --route_chan_width 96 --seed 2 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_D/s2 clma --route_chan_width 96 --seed 2 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_C/s3 clma --route_chan_width 96 --seed 3 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_D/s3 clma --route_chan_width 96 --seed 3 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_C/s4 clma --route_chan_width 96 --seed 4 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_D/s4 clma --route_chan_width 96 --seed 4 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_C/s5 clma --route_chan_width 96 --seed 5 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/clma/combo_D/s5 clma --route_chan_width 96 --seed 5 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_C/s1 pdc --route_chan_width 94 --seed 1 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_D/s1 pdc --route_chan_width 94 --seed 1 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_C/s2 pdc --route_chan_width 94 --seed 2 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_D/s2 pdc --route_chan_width 94 --seed 2 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_C/s3 pdc --route_chan_width 94 --seed 3 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_D/s3 pdc --route_chan_width 94 --seed 3 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_C/s4 pdc --route_chan_width 94 --seed 4 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_D/s4 pdc --route_chan_width 94 --seed 4 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_C/s5 pdc --route_chan_width 94 --seed 5 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/pdc/combo_D/s5 pdc --route_chan_width 94 --seed 5 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_C/s1 riscv_core_lut6 --route_chan_width 90 --seed 1 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_D/s1 riscv_core_lut6 --route_chan_width 90 --seed 1 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_C/s2 riscv_core_lut6 --route_chan_width 90 --seed 2 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_D/s2 riscv_core_lut6 --route_chan_width 90 --seed 2 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_C/s3 riscv_core_lut6 --route_chan_width 90 --seed 3 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_D/s3 riscv_core_lut6 --route_chan_width 90 --seed 3 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_C/s4 riscv_core_lut6 --route_chan_width 90 --seed 4 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_D/s4 riscv_core_lut6 --route_chan_width 90 --seed 4 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_C/s5 riscv_core_lut6 --route_chan_width 90 --seed 5 --astar_fac 1.0 --criticality_exp 2 --max_criticality 0.999 --acc_fac 2.0
+/home/claude/vtr9/build/vpr/vpr runs/B2/riscv_core_lut6/combo_D/s5 riscv_core_lut6 --route_chan_width 90 --seed 5 --astar_fac 1.0 --criticality_exp 4 --acc_fac 5.0

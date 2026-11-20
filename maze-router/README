@@ -1,0 +1,36 @@
+ECE1387 A1 - FPGA maze router (Sara Sehgal)
+
+build
+-----
+  make
+
+(needs gtk3, same as the ezgl example. builds ./router)
+
+run
+---
+run it from this folder (it loads main.ui from here):
+
+  ./router circuits/cct1
+
+that routes cct1 w the W from the file and opens the graphics window.
+W + number of segments used are printed in the terminal n shown in the status bar.
+
+options (can combine them):
+  -minw    find the smallest W that routes (tries W = 1, 2, 3, ...)
+  -fc      part 4: odd/even connection block
+  -fs4     part 5: Fs = 4 switch block
+  -nogfx   just print the result, no window
+
+examples:
+  ./router circuits/cct2
+  ./router circuits/cct3 -minw
+  ./router circuits/cct4 -minw -fc
+  ./router circuits/cct4 -minw -fs4 -nogfx
+
+files
+-----
+  router.cpp       the router (everything is in this one file)
+  Makefile
+  main.ui, ezgl/   ezgl graphics lib (from the course page)
+  circuits/        test circuits cct1 - cct4
+  A1_report.pdf    report
